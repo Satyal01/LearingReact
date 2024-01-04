@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./pages/App"
 import Carousle from './pages/ImageCarousel';
-import FaQ from "./FaQ"
+import FaQ from "./pages/FaQ"
 
 
 
