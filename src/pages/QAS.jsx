@@ -1,5 +1,6 @@
 import React from "react";
 import {useState} from "react";
+import { FaMinus, FaPlus } from "react-icons/fa6";
 
 function QAS({question, answer}){
     const [flag, setFlag] = useState(false);
@@ -14,7 +15,7 @@ function QAS({question, answer}){
             <div className="flex  justify-between px-2">
                 <h4  className="inline text-lg font-semibold ">{question} </h4>
                 <div className="border-2 block h-8 w-8 flex justify-center items-center rounded-md bg-purple-100 border-blue-700 "> 
-                    <button onClick={handleChlick}>+</button>
+                    <button onClick={handleChlick}>{(flag) ? <FaMinus size={0}/> : <FaPlus/>}</button>
                 </div>
             </div>
             { flag && (<div className="px-2">
