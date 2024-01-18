@@ -5,6 +5,7 @@ import Carousle from './pages/ImageCarousel';
 import FaQ from "./pages/FaQ"
 import Quote from "./pages/Quote"
 import ShopList from "./pages/shopList";
+import Shoes from "./pages/Shoes";
 
 
 
@@ -19,6 +20,7 @@ function AppRoute(){
                 <Route path="/quote" element={<Quote/>} />
                 <Route path="/shoping" element={<ShopList />} />
                 <Route path="/*" element = {<h1 className="text-center">Page not found</h1>} />
+                <Route path="shoes" element={<Shoes/>} />
             </Routes>
         </Router>
     );

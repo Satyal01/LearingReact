@@ -35,7 +35,7 @@ function ShopList(){
     
 
     return(
-    <div className="h-screen bg-blue-50 flex flex-col  justify-start items-center p-8 gap-10">
+    <div className="h-screen bg-blue-100 flex flex-col  justify-start items-center p-8 gap-10">
         <h1 className="text-4xl font-semibold  tracking-wider  ">Shoping List</h1>
         <div className="h-auto w-[20rem] p-4 border-2 border-white  flex flex-col items-center gap-2">
             <p className="p-2 text-2xl font-medium">item to buy</p>
